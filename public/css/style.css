@@ -1,3 +1,73 @@
-body{
-    background-color: hotpink;
+body {
+    font-family: Arial, sans-serif;
+    background-color: pink;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+form {
+    margin: 1em auto;
+    padding: 1em;
+}
+
+input[type="text"] {
+    padding: 0.5em;
+    font-size: 1em;
+    width: 60%;
+}
+
+button {
+    padding: 0.5em 1em;
+    font-size: 1em;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+ul#task-list {
+    list-style-type: none;
+    padding: 0;
+    width: 80%;
+    margin: auto;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    padding: 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 0.5em 0;
+}
+
+li form {
+    margin: 0;
+}
+
+li button {
+    background-color: #e74c3c;
+    color: #fff;
+    border-radius: 4px;
+    padding: 0.3em 0.6em;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+body::before {
+    content: "UGLY WEBSITE";
+    font-size: 120px;
+    color: rgba(0, 0, 0, 0.1);
+    position: fixed;
+    bottom: 40%;
+    left: 10%;
+    transform: rotate(-45deg);
+    white-space: nowrap;
+    z-index: -1;
 }

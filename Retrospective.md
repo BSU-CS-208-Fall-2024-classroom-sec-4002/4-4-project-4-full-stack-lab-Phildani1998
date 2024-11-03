@@ -1,16 +1,16 @@
 # Retrospective
 
-- name: Jane Doe
-- email: janedoe@u.boisestate.edu
+- name: Daniel Philpott
+- email: daniel.philpott@u.boisestate.edu
 
 ## Experience
 
-TODO
+LENGTHY! Spent hours with different errors and compiling issues.. BUT WE DID IT NOW! Ready to go...
 
 ## Known issues or Bugs
 
-TODO
+After hours of failure and re-trying, NADA!
 
 ## Sources used
 
-TODO
+Textbook / Google to get through issues that I ran into.
